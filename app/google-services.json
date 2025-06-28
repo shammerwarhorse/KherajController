@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "278332973778",
+    "project_id": "kheraj-354f3",
+    "storage_bucket": "kheraj-354f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278332973778:android:4c7c5f1808a32b5fa6030b",
+        "android_client_info": {
+          "package_name": "com.opendoors.contact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278332973778-fp5tut4btm6dpk1jnrnll4281p08kbk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT44jO7lsjfSWkcpcyhjwybBxmULf6whs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278332973778-fp5tut4btm6dpk1jnrnll4281p08kbk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

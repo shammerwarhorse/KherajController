@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgcolor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/llname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Test"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/llnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llname"
+        android:layout_marginLeft="10dp"
+        android:text="1234567890"
+        android:textSize="15sp"
+        tools:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/rbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/lineview"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/llnum"
+        android:layout_marginTop="5dp"
+        android:background="#DADADA"
+        tools:visibility="gone" />
+
+    <RadioButton
+        android:id="@+id/locationheadingshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="RadioButton" />
+</RelativeLayout>

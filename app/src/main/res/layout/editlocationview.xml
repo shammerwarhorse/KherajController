@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        tools:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Location Name"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+
+            android:id="@+id/newlocationname"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/greytextbox"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="10"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Location Number"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+
+            android:id="@+id/newlocationnumber"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/greytextbox"
+            android:ems="10"
+            android:inputType="number|phone"
+            android:maxLength="10"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/newsavelocation"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_corner"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:id="@+id/ticke"
+                    app:srcCompat="@drawable/ic_baseline_check_24"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toRightOf="@id/ticke"
+                    android:text="Save"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/newlocationdelete"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_corner"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/tick1ee"
+                app:srcCompat="@drawable/ic_baseline_delete_24"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/tick1ee"
+                android:text="Delete"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
